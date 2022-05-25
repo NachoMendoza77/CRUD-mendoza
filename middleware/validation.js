@@ -9,7 +9,7 @@ const validarId = async (req, res, next) => {
             res.status(400).json({msg: "id incorrecto"})
         }
     } catch (error) {
-        res.status(400).json({msg: "Chequear id / incorrecto", error})
+        res.status(400).json({msg: "Chequear id / id incorrecto", error})
     }
 } 
 
